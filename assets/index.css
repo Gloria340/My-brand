@@ -1,0 +1,485 @@
+/* General styling */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+:root{
+    --bg-color:#191919;
+    --secont-bg-color:#101010;
+    --main-color:#6a80ef;
+    --text-color:#fff;
+    --second-color: #e4e4e4;
+    --other-color:#c6c9d8bf;
+
+     --h1-font: 7rem;
+     --h1-font: 3.5rem;
+     --p-font: 1.1rem;
+}
+body {
+    color: var(--secont-bg-color);
+    
+}
+header{
+position: fixed;
+top: 0;
+right:0;
+z-index: 1000;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: transparent;
+padding: 28px ;
+margin: 0 20px;
+margin-left: 80px;
+margin-right: 40px;
+ border-bottom: 1px solid transparent;
+ transition: all ease .50s; 
+} 
+             /*---navbar-----*/
+.navlist{
+    display: flex ;
+}
+.navlist a{
+    color: var(--secont-bg-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin:30px;
+    transition: all ease .40s;
+    background-color: var(--container-color);
+}
+.navlist a:hover{
+    color: var(--main-color);
+} 
+.gogo{
+color: #191919;
+font-size: 1.2rem;
+margin: 0 10%;
+font-style: italic;
+    }
+
+.section{
+    padding: 2rem 0 4rem;
+   
+
+}
+.Home{
+    position: relative;
+    min-height: 100vh;
+    width: 50 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding:  10% ;
+    
+}
+      /*---iconcs-----*/
+.grid-icons{
+font-size: 1.5rem;
+color: #798fe8;
+justify-content: center;
+
+
+
+}
+                
+              /*---text-----*/
+.grid-text{
+    font-size: 1.2rem;
+}
+.grid-text p{
+    color: rgb(130, 126, 126);
+    font-size: 1rem;
+}.grid-text h3{
+    color: rgb(81, 79, 79);
+    font-size: larger;
+}
+.grid-text h1{
+    font-size: 3rem;
+}
+/*---button-----*/
+.button{
+    color: #fff;
+    background: var(--main-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    
+}
+/*---scroll-----*/
+.scroll{
+    
+    font-size:large;
+    color: rgb(215, 143, 8);
+    font-weight: var(--font-medium);
+    margin: -10rem 20rem;    /*margin top ,margin reft*/
+background
+padding:1% 3% ;
+margin-left: 20%;
+
+}
+        
+
+/*---about-----*/
+
+.aboutme{
+    text-align: center;
+    margin: 0%;
+    padding: 17%;
+}
+  .aboutme h1  {
+font-size: 2.5rem;
+}
+p {
+    font-size: 1.rem;
+    color: rgb(130, 126, 126);
+    font-style: italic;
+    }
+
+    .about-numer{
+        display: flex;
+        align-items: center;
+        gap: 10rem;
+    }
+    .number span {
+        display: block;
+        font-size: 2rem;
+    }
+    .number {
+        display: flex;
+    }
+    span{
+        color: #101010;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        margin: 35px;
+    }
+
+    /*---about-----*/
+    
+    .skills-content{
+text-align: center;
+    }
+    .skills-front{
+        display: flex;
+    }
+    i{
+        font-size: 2.5rem;
+        color:var(--main-color)
+    }
+     h2{
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    } .number span{
+            font-size: 2rem;
+            color: rgb(12, 11, 11);
+            font-style: italic;
+    }
+      .skills-scrollgrid{
+        display: flex;
+        gap: 15rem;
+justify-content: center;
+      }
+      
+     /*---HTML-----*/
+
+
+
+
+     .skill-main{
+        width: 100%;
+        display: grid;
+        grid-column-gap:50px ;
+        grid-row-gap:20  px ;
+        gap: 1rem;
+     }
+     
+     .skill-main .skill-bar .info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        
+     } 
+     
+     .skill-bar .info .percenta{
+
+     }
+ .skill-bar .bar{
+       width: 100%;
+       height: 10px;
+       position: relative;
+       background-color: rgb(64, 60, 60);
+       border-radius: 25px;
+       margin-top: 5px;
+     }
+.info p{
+    color: #101010;
+    font-family: Arial;
+}
+
+ .skills-front{
+    max-width: 408px;
+    margin-left:2rem;
+    margin-right: 2rem;
+
+}.span1 span{
+    font-size: 1.2rem;
+    color: rgb(130, 126, 126);
+    font-style: italic;
+   
+}
+
+ /*---qualification-----*/
+.Qualif{
+    text-align: center;
+    margin: 2%;
+    padding: 8%;
+}
+.Qualif h1{
+font-size: 2rem;
+}
+.education{
+    display: flex;
+     justify-content: center;
+     font-size: 1.4rem;
+     color: rgb(81, 79, 79);
+    
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.qualification-rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(123, 123, 247);
+    border-radius: 50%;
+}
+.qualification-line{
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(125, 125, 235);
+    transform: translate(6px, -77px);
+}
+.calendar{
+    display: inline-block;
+    font-size: 1.rem;
+    color: rgb(130, 126, 126);
+    font-style: italic;
+}
+.calendar i{
+    font-size:1.2rem; 
+}
+.icons{
+    font-size: 2rem;
+}
+.content-education{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns:px ;
+    
+}
+.empt{
+    width: 28.7rem;
+}
+.content-qualification{
+   
+  
+}
+
+
+ /*---service-----*/
+
+ h2{
+    font-weight: 5px;
+ }
+section {
+    padding: 6rem ;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0 2rem;
+    
+}
+.service-container{
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.button{
+    
+    font-size: 13px;
+   padding: 7px;
+   color:white;
+   background-color: var(--main-color);
+
+}
+.button i{
+    
+    font-size: 30px;
+}
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+
+}
+
+
+ /*---portifolia-----*/
+ .portfolia-data{
+    display: flex;
+    
+ }
+    img{
+    max-width: 70%;
+
+ }
+
+/*---project-----*/
+.project-container{
+    display: flex;
+    color: rgb(52, 51, 51);
+
+}
+
+img{
+    max-width: 80%;
+}
+ .project-data h2{
+    width:300px; 
+    font-size: 28px;
+    color: rgb(100, 100, 100);
+    
+ }
+ .project-bg{
+    background-color: #041321;
+    border-radius: 20px;
+ }
+ .button{
+   background-color: #107adc;
+   color: rgb(242, 245, 247);
+ }
+ span{
+    color: white;
+ }
+/*---testimon-----*/
+
+.thierry{
+    display: flex;
+    gap: 30px;
+}
+.thierry img{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+}
+.star img{
+    max-width: 80%;
+    
+}
+.testimon-container{
+    display: inline-block;
+}
+.thierry i{
+    font-size: x-large;
+}
+h2{
+    font-size: 30px;
+}
+/*---contact me----*/
+
+input{
+    background-color: #e1e5e9;
+    width: 100%;
+    height: 70px;
+}
+textarea{
+    background-color: #e1e5e9;
+}
+.contact-conatainer{
+    display: flex;
+    gap: 50px;
+}
+.call{
+    display: flex;
+    gap: 20px;
+    
+}
+ /*---footer----*/
+footer{
+    object-fit: cover; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+ .bg{
+    background-color:var(--main-color);
+    
+ }
+ .footer-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30%;
+    margin-right: 10%;
+
+ }
+ .copy{
+    color: rgb(203, 197, 197);
+    margin-left: 40%;
+    margin-bottom: 5%;
+ }
+ .soft h3 {
+    font-size: 40px;
+ }
+    .soft p{
+        color: white;
+    }
+.button{
+    background-color: var(--main-color);
+}
+.button i{
+    color: white;
+}
+.href a{
+color: white;
+font-size: 15px;
+    padding: 5px; /* Adds space inside the div */
+  
+  
+}
+.footer-cont i{
+    color: white;
+    font-size:25px ;
+        padding: 10px; /* Adds space inside the div */
+      
+}
+
+
+
+
+
+ 
